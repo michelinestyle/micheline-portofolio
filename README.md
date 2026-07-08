@@ -16,16 +16,16 @@ Hello, welcome to my portfolio! I am an Information Systems graduate from BINUS 
  **Project Link:** [View Tomodime Prototype](https://www.figma.com/design/aO4SpBIRCYixVu1ydLwuTV/TM05---Group-5?node-id=0-1&p=f)
 
 ## 4. UI/UX Design: Wave Application
- **Description**: Wave is a dedicated platform for K-pop fans that offers live performance streaming and an integrated merchandise marketplace. In this project, I was responsible for the system analysis phase developing use case descriptions, activity diagrams, and system flowcharts to define the app's core functionality as well as designing its user interface
- **Project Link:** [View Project Documentation](https://docs.google.com/document/d/1MH-zRERKNrsrLC8MUv1A4R0MPP7qQG35ljwRgeL_AdI/edit?tab=t.0)
+ * **Description**: Wave is a dedicated platform for K-pop fans that offers live performance streaming and an integrated merchandise marketplace. In this project, I was responsible for the system analysis phase developing use case descriptions, activity diagrams, and system flowcharts to define the app's core functionality as well as designing its user interface
+ * **Project Link:** [View Project Documentation](https://docs.google.com/document/d/1MH-zRERKNrsrLC8MUv1A4R0MPP7qQG35ljwRgeL_AdI/edit?tab=t.0)
 
 ## 4. Web Development: ShelfLife Website
- **Description**: A responsive book-reading web platform built using frontend technologies to provide a smooth user experience.
- **Code:** [🔗 View Source Code](./Project ShelfLife)
+ * **Description**: A responsive book-reading web platform built using frontend technologies to provide a smooth user experience.
+ * **Code:** [🔗 View Source Code](./Project%20ShelfLife/)
 
 ## 5. Web Development: WheelHub Website
- **Description**: jk 
- **Code:** [🔗 View Source Code](./Project wheelHub)
+ * **Description**: jk 
+ * **Code:** [🔗 View Source Code](./Project%20wheelHub/)
 
 ### Contact Me
  **Email:** unvianamicheline@gmail.com

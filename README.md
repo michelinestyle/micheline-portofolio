@@ -8,23 +8,23 @@ Hello, welcome to my portfolio! I am an Information Systems graduate from BINUS 
  **Project Link:** [📄 View My Project Documentation on Canva](https://www.canva.com/design/DAFwcmy7KDE/JHBBQUWH_AY-afnAtFs6Cw/edit)
 
 ## 2. UI/UX Design: Service Application
- **Description:** Service Yukk is an on-demand service platform for home appliances, including air conditioners, washing machines, and electronics. I initiated the core product concept, including the app's naming, and spearheaded the UI/UX design to deliver a clean, intuitive, and highly user-friendly interface.
+ **Description**: Service Yukk is an on-demand service platform for home appliances, including air conditioners, washing machines, and electronics. I initiated the core product concept, including the app's naming, and spearheaded the UI/UX design to deliver a clean, intuitive, and highly user-friendly interface.
  **Project Link:** [View My Prototype on Figma](https://www.figma.com/design/htLJfWtXCFPUr8hGyLjZ8j/AOL-Project-Kelompok-8?node-id=0-1&p=f)
 
 ## 3. UI/UX Design: Tomodime Application
- **Description:** Tomodime is an all-in-one platform designed for anime and Japanese pop-culture enthusiasts, enabling users to track ongoing events, purchase cosplay gear, and engage in community forums. For this project, I was responsible for designing an engaging and highly intuitive user interface from the ground up, focusing on creating an appealing visual identity and ensuring a seamless, intuitive experience for the community.
+ **Description**: Tomodime is an all-in-one platform designed for anime and Japanese pop-culture enthusiasts, enabling users to track ongoing events, purchase cosplay gear, and engage in community forums. For this project, I was responsible for designing an engaging and highly intuitive user interface from the ground up, focusing on creating an appealing visual identity and ensuring a seamless, intuitive experience for the community.
  **Project Link:** [View Tomodime Prototype](https://www.figma.com/design/aO4SpBIRCYixVu1ydLwuTV/TM05---Group-5?node-id=0-1&p=f)
 
 ## 4. UI/UX Design: Wave Application
- **Description:** Wave is a dedicated platform for K-pop fans that offers live performance streaming and an integrated merchandise marketplace. In this project, I was responsible for the system analysis phase developing use case descriptions, activity diagrams, and system flowcharts to define the app's core functionality as well as designing its user interface
+ **Description**: Wave is a dedicated platform for K-pop fans that offers live performance streaming and an integrated merchandise marketplace. In this project, I was responsible for the system analysis phase developing use case descriptions, activity diagrams, and system flowcharts to define the app's core functionality as well as designing its user interface
  **Project Link:** [View Project Documentation](https://docs.google.com/document/d/1MH-zRERKNrsrLC8MUv1A4R0MPP7qQG35ljwRgeL_AdI/edit?tab=t.0)
 
 ## 4. Web Development: ShelfLife Website
- **Description:** A responsive book-reading web platform built using frontend technologies to provide a smooth user experience.
+ **Description**: A responsive book-reading web platform built using frontend technologies to provide a smooth user experience.
  **Code:** [🔗 View Source Code](./Project ShelfLife)
 
 ## 5. Web Development: WheelHub Website
- **Description:** A responsive book-reading web platform built using frontend technologies to provide a smooth user experience.
+ **Description**: jk 
  **Code:** [🔗 View Source Code](./Project wheelHub)
 
 ### Contact Me

@@ -21,7 +21,7 @@ Hello, welcome to my portfolio! I am an Information Systems graduate from BINUS 
 
 ## 4. Web Development: ShelfLife Website
  **Description**: A responsive book-reading web platform built using frontend technologies to provide a smooth user experience.
- **Code:** [🔗 View Source Code](./Project ShelfLife)
+ **Code:** [View Source Code]
 
 ## 5. Web Development: WheelHub Website
  **Description**: jk 

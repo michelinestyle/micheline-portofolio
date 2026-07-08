@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../styles/register.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="shortcut icon" href="../Assets/logo wheelhub.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="title">Register</div>
+            <form action="" method="GET" id="register-form" onsubmit="return validateAll()">
+                <div class="form">
+                    <label>Username</label>
+                    <input type="text" name="username" id="username" placeholder="Username" required>
+                </div>
+                <div class="form">
+                    <label>Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form">
+                    <div class="pass-label">
+                        <label>Password</label>
+                        <button id="showPassword" type="button">Show</button>
+                    </div>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+                <div class="form">
+                    <div class="pass-label">
+                        <label>Confirm Password</label>
+                        <button id="showPassword2" type="button">Show</button>
+                    </div>
+                    <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" required>
+                </div>
+                <div class="gender-label">
+                    <label>Gender</label>
+                    <input type="radio" name="gender" id="genderMale" value="male" required> Male
+                    <input type="radio" name="gender" id="genderFemale" value="female" required> Female
+                </div>
+                <div class="form">
+                    <label>Date of Birth</label>
+                    <input type="date" name="dob" id="dob" required>
+                </div>
+                <div class="checkbox-label">
+                    <input type="checkbox" name="terms" id="terms"/>
+                    <label>I agree to the terms and conditions</label>
+                </div>
+                <div class="buttons">
+                    <button class="button" type="submit" id="submit-btn">Create Account</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../script/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShelfLife</title>
+    <link rel="shortcut icon" href="https://drive.google.com/thumbnail?id=1IU3-vCkyWn6Xuh3R2yk1grGT4_aLAvZy" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/register-style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <div class="left-side">
+        <div class="top">
+            <img src="https://drive.google.com/thumbnail?id=17epX5hCxCrqm75f6IqntacBKSay8iuGZ&sz" alt="Logo ShelfLife">
+            <a href="../pages/login.html">Log In</a>
+        </div>
+        <div class="form-container">
+            <form id="register-form">
+                <h1>Register</h1>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-group">
+                    <div class="pw-label">
+                        <label for="password">Password</label>
+                        <button id="showPassword" type="button">Show</button>
+                    </div>
+                    <input type="password" id="password">
+                </div>
+                <div class="form-group">
+                    <div class="pw-label">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <button id="showPassword2" type="button">Show</button>
+                    </div>
+                    <input type="password" id="confirmPassword">
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">I agree to the terms and conditions</label>
+                </div>
+                <div id="button-group">
+                    <button class="button" type="submit">Create Account</button>
+                    <div id="or-text">
+                        <hr><p>OR</p><hr>
+                    </div>
+                    <button id="fb" type="button"><a href="https://www.facebook.com/">Facebook</a></button>
+                    <button id="google" type="button"><a href="https://accounts.google.com/">Google</a></button>    
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="right-side" id="color-div"></div>
+    <script src="../scripts/register-script.js"></script>
+</body>
+</html>

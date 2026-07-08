@@ -1,0 +1,267 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+*,*:before,*:after{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+  display: grid;
+  font-size: 14px;
+}
+
+nav {
+  background-color: #FFDD8F;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar {
+  padding: 0 1rem;
+}
+
+.navbar a {
+  padding: 0 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+nav img{
+  width: 50%;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+nav a:hover {
+  color: #EF2346;
+  border-bottom: 0.5vw solid #EF2346;
+} 
+
+.main{
+  padding: 15px;
+}
+
+.sidebar{
+  background-color: orange;
+  color: black;
+  height: 100%;
+}
+
+.sidebar a{
+  margin-left: 30px;
+  display: block;
+  color: orange;
+  padding-bottom: 30px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  background-color: whitesmoke;
+}
+
+button{
+  background-color: #FFDD8F;
+  color: black;
+  border: 1px solid #FFDD8F;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: -30px;
+  padding: 5px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+  background-color: #EF2346;
+  border: 1px solid #EF2346;
+  color: black;
+}
+
+.mt-3{
+  color: black;
+  font-size: 14px;
+  line-height: normal;
+  justify-content: left;
+  padding: 10px;
+}
+
+/* .container{
+  overflow:scroll;
+  max-height: 80%;
+  max-width: 80%;
+} */
+
+.card-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow-x:scroll;
+  max-width: 80%; */
+}
+
+.card-bodyProfile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  text-align: center;
+  font-size: 25px;
+}
+
+.row{
+  padding: 10px;
+
+}
+
+.titleBook{
+  font-size: 14px;
+  text-align: center;
+}
+
+.author{
+  font-size: 12px;
+  text-align: center;
+}
+
+.page{
+  font-size: 12px;
+  text-align: center;
+  color: grey;
+}
+
+footer{
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5vh;
+  color: black;
+  background-color:#FFDD8F;
+} 
+
+.footer >*{
+  flex: 1 100%;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.footer-content{
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+  width: 30%;
+  height: 100%;
+}
+
+.footer-content p {
+  text-justify: auto;
+}
+
+.footer-content #logo{
+  width: 50%;
+}
+
+.h2{
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.footer ul{
+  list-style: none;
+}
+
+.footer li{
+  line-height: 2em;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+.shelflife-icon{
+  width: 20px;
+}
+
+.box a{
+  color: black;
+}
+
+.box a:hover{
+  transform: translateY(-3px) translateX(-5px);
+  color: orange;
+}
+
+.footer-bottom{
+  text-align: center;
+  justify-content: center;
+  color: black;
+  padding-top: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer-right > * {
+      flex: 1;
+  }
+  .footer-left {
+      flex: 1 0px;
+  }
+  .footer-right {
+      flex: 2 0px;
+  }
+  .footer {
+      padding: 20px;
+      font-size: 14px;
+  }
+  h2 {
+      font-size: smaller;
+  }
+  main {
+      font-size: 18px;
+  }
+  header {
+      font-size: 24px;
+  }
+  .content {
+      padding: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+      padding: 15px;
+      font-size: 12px;
+  }
+  main {
+      font-size: 12px;
+  }
+  header {
+      font-size: 16px;
+  }
+  .content {
+      padding: 6px;
+  }
+  h2 {
+      font-size: smaller;
+  }
+}

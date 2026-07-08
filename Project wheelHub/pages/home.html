@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wHeelHub</title>
+    <link rel="stylesheet" href="../styles/home.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="../Assets/Logo.png" alt="logo-wheelhub">
+        </div>
+
+        <div class="navbar" id="navbarmenu">
+            <a href="../pages/home.html" class="active">Home</a>
+            <a href="../pages/Promotion.html">Promotion</a>
+            <a href="../pages/All cars.html">All Cars</a>
+
+            <div class="submenu">
+                <button class="submenubtn" type="button"><a href="../pages/About us.html">About Us</a>
+                    <img src="../Assets/down_down_arrow-removebg-preview.png" class="arrowdown" onclick="ArrowFunction()">
+                </button>
+
+                <div class="submenu-content" id="submenuid">
+                    <a href="../pages/story.html">History</a>
+                    <a href="../pages/visi.html">Vision</a>
+                    <a href="../pages/misi.html">Mission</a>
+                </div>
+            </div>
+
+            <a href="../pages/register.html">Register</a>
+
+            <a href="javascript:void(0);" class="menuicon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <div class="topHeader">
+            <h1>Our Products</h1>
+        </div>
+        <div class="container">
+            <div class="slider" id="product-slider">
+                <div class="slide"><img src="../assets/23_bZ4X_XLE_WindChillPearl_2.png" alt="Image 1"></div>
+                <div class="slide"><img src="../assets/2024HighlanderHybridToyota.png.webp" alt="Image 2"></div>
+                <div class="slide"><img src="../assets/joinUsSectionBaner.jpeg" alt="Image 3"></div>
+            </div>
+            <button class="left" id="left-product">&#10094;</button>
+            <button class="right" id="right-product">&#10095;</button>
+        </div>
+
+        <div class="midHeader">
+            <h1>Our Services</h1>
+        </div>
+        <div class="midContainer">
+            <div class="slider" id="service-slider">
+                <div class="slide-service"><img src="../assets/gallery/gallery_1.jpeg" alt="Image 1"></div>
+                <div class="slide-service"><img src="../assets/gallery/gallery_2.jpeg" alt="Image 2"></div>
+                <div class="slide-service"><img src="../assets/gallery/gallery_3.jpeg" alt="Image 3"></div>
+                <div class="slide-service"><img src="../assets/gallery/gallery_4.jpeg" alt="Image 4"></div>
+                <div class="slide-service"><img src="../assets/gallery/gallery_4.webp" alt="Image 5"></div>
+            </div>
+            <button class="left" id="left-service">&#10094;</button>
+            <button class="right" id="right-service">&#10095;</button>
+        </div>
+
+    <footer class="footer">
+        <div class = footer-top>
+            <div class="footer-content">
+                <img id="logo" src="../Assets/logo wheelhub.jpg" alt="Logo-wheelhub">
+                <p>Wheel Hub is a leader in automotive retail, offering top-quality cars and accessories. Our online platform brings the exceptional showroom experience to your fingertips, featuring a wide range of vehicles, exciting promotions, and comprehensive company information. Explore Wheel Hub online and find the perfect car to start your journey.</p>
+            </div>
+            <div class="footer-content">
+                <h2>Wheel Hub</h2>
+                <ul class="box">
+                    <li><img class="icon" src="../Assets/icon/location.png">Tanggerang Selatan, Indonesia</li>
+                    <li><img class="icon" src="../Assets/icon/telephone-call.png">(+62) 812 5643 2563</li>
+                    <li><img class="icon" src="../Assets/icon/mail.png">Wheelhub@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h2>Social Media</h2>
+                <ul class="box">
+                    <li><a href="#"><i class='bx bxl-instagram'></i>Instagram</a></li>
+                    <li><a href="#"><i class='bx bxl-twitter' ></i>Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p><b>Copyright &copy; 2024 by WheelHub. All rights reserved.</b></p>
+        </div>
+    </footer>   
+    <script src="../script/home.js"></script>
+</body>
+</html>

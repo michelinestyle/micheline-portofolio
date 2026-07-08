@@ -1,0 +1,188 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    margin:0;
+    height: 100%;
+    background-color:aliceblue;
+}
+
+.header img{
+    width: 10%;
+    height: 10%;
+    float: left;
+    display: flex;
+}
+  
+.navbar{
+  text-align: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+  display: flex;
+}
+
+.navbar a {
+  margin: 40px;
+  color:#008B8B;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  color:black;
+}
+
+.active {
+  color:chocolate;
+}
+
+.navbar .menuicon {
+  display: none;
+}
+
+.submenu {
+  float: left;
+  overflow: hidden;
+  margin: 40px;
+}
+
+.submenu .submenubtn {
+  cursor: pointer;
+  font-size: 25px;
+  color: #008B8B;
+  margin: 0; 
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+.submenu:hover .submenubtn{
+  color: black;
+}
+
+.submenubtn:focus{
+  color: black;
+}
+
+.submenu-content {
+  display: none;
+  position: absolute;
+  background-color:beige;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 50px;
+}
+
+.submenu-content a {
+  float: none;
+  color:darkblue;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.submenu-content a:hover {
+  background-color:transparent;
+} 
+
+.arrowdown{
+  width: 15px;
+  height: 15px;
+}
+
+.show{
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child), .submenu .submenubtn {
+    display: none;
+  }
+
+  .navbar a.menuicon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .menuicon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .navbar.responsive .submenu {float: none;}
+  .navbar.responsive .submenu-content {position: relative;}
+  .navbar.responsive .submenu .submenubtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+  .topContainer img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    margin-top: 5px;
+  }
+
+  .topContainer .title{
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: whitesmoke;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    border: 5px solid;
+    border-radius: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+  }
+
+ .activity{
+  text-align: center;
+  width: 100%;
+
+ }
+
+ .activity h2{
+  font-size: 30px;
+  color: black;
+  opacity: 0.3;
+  font-weight: bold;
+ }
+
+ .activityImage{
+  background-color: black;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px;
+  margin: 10px;
+ }
+
+ .activityImage img{
+  width: 400px;
+  height: 300px;
+  object-fit: fill;
+  object-position: center;
+  padding: 10px;
+ }

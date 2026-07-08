@@ -1,0 +1,178 @@
+* {
+  font-family: 'Poppins';
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side {
+  height: 100%;
+  width: 100%;
+  max-width: 60vw;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.top {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.top img {
+  height: 100%;
+  min-height: 10px;
+}
+
+.top a {
+  font-size: 20px;
+  margin-right: 30px;
+  color: black;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 80%;
+}
+
+.form-group {
+  margin: 15px 15px 0 15px;
+}
+
+input[type="password"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.pw-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.pw-label button {
+  border: none;
+  background: none;
+  color: inherit;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+#button-group {
+  margin: 15px;
+}
+
+#button-group button {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+#button-group .button {
+  background-color: #FABA26;
+}
+
+#fb{
+  background-color: #1877F2;
+}
+
+#google {
+  background-color: #4285F4;
+}
+
+#fb a, #google a {
+  color: white;
+  text-decoration: none;
+}
+
+#or-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+#or-text hr {
+  width: 40%;
+  flex: 1;
+  border: none;
+  border-top: 2px solid black;
+  margin: 0 10px;
+}
+
+.right-side {
+  height: 100%;
+  width: 40vw;
+  background: #FABA26;
+  position: fixed;
+  right: 0;
+  border-left: 0.2vw solid black;
+  transition: background-color 1s ease;
+}
+
+#button-group button:hover {
+  box-shadow: 0 4px 4px black;
+}
+
+#button-group .button:hover {
+  background-color: #7073EE;
+}
+
+#pw-label button:hover, .top a:hover{
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: #FABA26;
+  }
+
+  .right-side {
+      display: none;
+  }
+  
+  .left-side {
+      background-color: white;
+      width: 100%;
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 0;
+      box-sizing: border-box;
+      border: 1px solid black;
+      overflow: auto;
+  }
+}

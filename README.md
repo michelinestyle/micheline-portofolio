@@ -16,17 +16,17 @@ Hello, welcome to my portfolio! I am an Information Systems graduate from BINUS 
 * **Project Link:** [View Tomodime Prototype](https://www.figma.com/design/aO4SpBIRCYixVu1ydLwuTV/TM05---Group-5?node-id=0-1&p=f)
 
 ## 4. UI/UX Design: Wave Application
- * **Description**: Wave is a dedicated platform for K-pop fans that offers live performance streaming and an integrated merchandise marketplace. In this project, I was responsible for the system analysis phase developing use case descriptions, activity diagrams, and system flowcharts to define the app's core functionality as well as designing its user interface
+ * **Description**: Wave is a dedicated platform for K-pop fans that offers live performance streaming and an integrated merchandise marketplace. In this project, I was responsible for the system analysis phase developing use case descriptions, activity diagrams, and system flowcharts to define the app's core functionality as well as designing its user interface.
  * **Project Link:** [View Project Documentation](https://docs.google.com/document/d/1MH-zRERKNrsrLC8MUv1A4R0MPP7qQG35ljwRgeL_AdI/edit?tab=t.0)
 
-## 4. Web Development: ShelfLife Website
- * **Description**: "ShelfLife is a responsive digital library website that utilizes frontend development to ensure a smooth, dynamic, and user-friendly reading interface."
+## 5. Web Development: ShelfLife Website
+ * **Description**: ShelfLife is a responsive digital library website that utilizes frontend development to ensure a smooth, dynamic, and user-friendly reading interface.
  * **Code:** [🔗 View Source Code](./Project%20ShelfLife/)
 
-## 5. Web Development: WheelHub Website
- * **Description**: "wheelHub is a responsive car sales and promotion website that allows users to explore a wide variety of cars. The site features an interactive catalog that displays detailed car profiles, helping dealerships showcase their inventory through a clean and user-friendly web interface."
+## 6. Web Development: WheelHub Website
+ * **Description**: wheelHub is a responsive car sales and promotion website that allows users to explore a wide variety of cars. The site features an interactive catalog that displays detailed car profiles, helping dealerships showcase their inventory through a clean and user-friendly web interface.
  * **Code:** [🔗 View Source Code](./Project%20wheelHub/)
 
 ### Contact Me
- **Email:** unvianamicheline@gmail.com
- **LinkedIn:** www.linkedin.com/in/micheline-unviana-7b524b255
+ * **Email:** michelineuvn0503@gmail.com
+ * **LinkedIn:** www.linkedin.com/in/micheline-unviana-7b524b255

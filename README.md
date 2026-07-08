@@ -21,12 +21,12 @@ Hello, welcome to my portfolio! I am an Information Systems graduate from BINUS 
 
 ## 4. Web Development: ShelfLife Website
  **Description:** A responsive book-reading web platform built using frontend technologies to provide a smooth user experience.
- **Code:** [🔗 View Source Code](Isi_Link_ShelfLife_Kamu)
+ **Code:** [🔗 View Source Code](./Project ShelfLife)
 
 ## 5. Web Development: WheelHub Website
  **Description:** A responsive book-reading web platform built using frontend technologies to provide a smooth user experience.
- **Code:** [🔗 View Source Code](Isi_Link_ShelfLife_Kamu)
+ **Code:** [🔗 View Source Code](./Project wheelHub)
 
 ### Contact Me
- **Email:** michelineuvn0503@gmail.com
- **LinkedIn:** linkedin.com/in/username-kamu
+ **Email:** unvianamicheline@gmail.com
+ **LinkedIn:** www.linkedin.com/in/micheline-unviana-7b524b255
